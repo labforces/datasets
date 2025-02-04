@@ -42,7 +42,7 @@ if selected_page == "Промо Календарь":
     
     st.title('Промо :blue[Календарь]:')
 
-    df = pd.read_excel('Промо календарь.xlsx')
+    df = pd.read_excel('Промо календарь.xlsx', engine = 'openpyxl')
     
     st.dataframe(df, width=800, height = 500)
     
