@@ -3,7 +3,6 @@ import pandas as pd
 import io
 import os
 from datetime import datetime, timedelta
-import folium
 import matplotlib.pyplot as plt
 
 st.set_page_config(layout="wide")
