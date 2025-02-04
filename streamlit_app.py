@@ -3,7 +3,6 @@ import pandas as pd
 import io
 import os
 from datetime import datetime, timedelta
-from streamlit_folium import st_folium
 import folium
 import matplotlib.pyplot as plt
 
